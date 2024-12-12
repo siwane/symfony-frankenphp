@@ -53,4 +53,4 @@
 
 .env
 composer.lock
-
+.idea
