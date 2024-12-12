@@ -1,0 +1,10 @@
+listeners:
+  - type: http
+    address: ":8080"
+
+apps:
+  main:
+    root: public
+    router: public/index.php
+    log_level: debug
+
