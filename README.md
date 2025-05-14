@@ -1,12 +1,12 @@
 # symfony-frankenphp
 
 ## How to install
-
+```shell
 mkdir symfony-frankenphp
 cd symfony-frankenphp
 docker build --no-cache -t symfony-frankenphp .
 docker run -p 8080:8080 symfony-frankenphp
-
+```
 # Symfony + FrankenPHP
 
 This repository demonstrates how to serve a Symfony application using [FrankenPHP](https://frankenphp.dev/), a modern PHP server that eliminates the need for Nginx or Apache.
